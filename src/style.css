@@ -1,1 +1,29 @@
 /* styles go here */
+* {
+  all: revert;
+}
+
+.forms_name {
+  display: none;
+}
+
+.form-field {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-fieldset {
+  margin: 20px 0;
+}
+
+.form-fieldset .form-field:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-fieldset .form-field:first-of-type {
+  margin-top: 0;
+}
+
+.form .form-fieldset:first-of-type {
+  margin-top: 0;
+}
